@@ -20,14 +20,24 @@ public class Arreglos {
         
         int [] numeros= new int[4];
     
-        
+       
             for(int i = 0; i<numeros.length; i++ ){
 
                 System.out.println("digita el dato:" +i);
                 numeros[i] = entrada.nextInt();
                 
-                System.out.println("todos los datos son" + numeros[i]);
+                 
+                
+             
+            }
+            
+            System.out.println("*************");
+            
+            for(int i = 0; i<numeros.length; i++ ){
 
+                System.out.println(numeros[i]);
+                
+             
             }
 
         }
