@@ -18,23 +18,27 @@ public class Arreglos {
         String prod5 = "pansitos";
         String prod6 = "piña";
         
-        int [] numeros= new int[4];
+        persona [ ] personas= new persona[4];
     
        
-            for(int i = 0; i<numeros.length; i++ ){
+            for(int i = 0; i<personas.length; i++ ){
 
-                System.out.println("digita el dato:" +i);
-                numeros[i] = entrada.nextInt();
+                personas [i ] = new persona();
+                
+                System.out.println("digita el nombre de la persona:" +i);
+                
+                personas[i].setNombre(entrada.next());
                 
                  
             }
             
                 System.out.println("*************");
             
-            for(int i = 0; i<numeros.length; i++ ){
+          for(int i = 0; i<personas.length; i++ ){
 
-                 System.out.println(numeros[i]);
-                
+              System.out.println(personas[i].getNombre());
+             
+   
              
             }
 
